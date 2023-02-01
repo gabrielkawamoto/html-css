@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #13c2138e;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00FF77, #053D00);
+    padding: 10px;
+}
+
+header > h1 {
+    color: white;
+    font-family: sans-serif ;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000b0;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000b0;
+}
+
+nav > a {
+    color: #5bbe89;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: #155916;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 70px 0px 70px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.552);
+}
+
+main > h1 {
+    font-family: idroid, arial;
+    color: #053D00;
+}
+
+main > p {
+    text-indent: 2em;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+main > h2 {
+    font-family: idroid, arial;
+    color: #053D00;
+    background-color: #00FF77;
+}
+
+
+.destaque {
+    background-color: #00FF77;
+    color: #053D00;
+    font-weight: bold;
+}
+
+.bug {
+    font-weight: bold;
+    color: #053D00;
+}
+
+article {
+    background-color: #00FF77;
+    border-radius: 10px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 2em;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+    background-color: #053D00;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+}
+
+li {
+   text-decoration: underline;
+}
+
+footer {
+    background-color: #053D00;
+    color: white;
+    text-align: center;
+    
+}
